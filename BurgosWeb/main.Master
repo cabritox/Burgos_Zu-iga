@@ -11,42 +11,48 @@
  
 <link href="Assets/master.css" rel="stylesheet" />   
 <link href="Assets/index.css" rel="stylesheet" />
+<link href="Assets/venta.css" rel="stylesheet" />
+<link href="Assets/busqueda.css" rel="stylesheet" />
 
     <title>Test</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <section>
+    <section class="alinear">
+
         <header>
-            <div>
-                <h1>NovaTec</h1>
-            </div>
-        </header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.aspx">Home</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="venta.aspx">Venta</a>
-                <a class="nav-link active" aria-current="page" href="busqueda.aspx">Busqueda</a>
-              </div>
-            </div>
-           </div>
-        </nav>
+  <div>
+    <h1>NovaTec</h1>
+  </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-link active" href="index.aspx">Home</a>
+          <a class="nav-link" href="venta.aspx">Venta</a>
+          <a class="nav-link" href="busqueda.aspx">Busqueda</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+        <main>
+            <form id="form1" runat="server">
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                 </asp:ContentPlaceHolder>
+            </form>
+        </main>
       
-        <form id="form1" runat="server">
-            <div>
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
-        </form>
         <footer>
             <p>@Nicolás Burgos - Juan Zuñiga</p>
         </footer>
+
     </section>
 </body>
 </html>

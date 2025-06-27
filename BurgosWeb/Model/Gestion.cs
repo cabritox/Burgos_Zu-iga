@@ -37,7 +37,6 @@ namespace BurgosWeb.Model
                             p.Nombre = dr.GetString(1);
                             p.Precio = dr.GetInt32(2);
                             p.Stock = dr.GetInt32(3);
-                            p.UrlImagen = dr["url_imagen"].ToString();
                         }
 
                         return p;
@@ -98,7 +97,6 @@ namespace BurgosWeb.Model
                                 p.Nombre = dr.GetString(1);
                                 p.Precio = dr.GetInt32(2);
                                 p.Stock = dr.GetInt32(3);
-                                p.UrlImagen = dr.IsDBNull(4) ? null : dr.GetString(4);
 
                                 lstProductos.Add(p);
                             }

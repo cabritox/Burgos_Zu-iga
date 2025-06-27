@@ -15,15 +15,6 @@ namespace BurgosWeb.Views
     {
 
         /// <summary>
-        /// Control Label2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
-
-        /// <summary>
         /// Control txtCodigo.
         /// </summary>
         /// <remarks>
@@ -33,15 +24,6 @@ namespace BurgosWeb.Views
         protected global::System.Web.UI.WebControls.TextBox txtCodigo;
 
         /// <summary>
-        /// Control Label1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
         /// Control txtCantidad.
         /// </summary>
         /// <remarks>
@@ -49,6 +31,15 @@ namespace BurgosWeb.Views
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtCantidad;
+
+        /// <summary>
+        /// Control btnCompra.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCompra;
 
         /// <summary>
         /// Control Label4.
@@ -78,15 +69,6 @@ namespace BurgosWeb.Views
         protected global::System.Web.UI.WebControls.Label lblRespuesta;
 
         /// <summary>
-        /// Control btnCompra.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCompra;
-
-        /// <summary>
         /// Control lblAlerta.
         /// </summary>
         /// <remarks>
@@ -94,5 +76,14 @@ namespace BurgosWeb.Views
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblAlerta;
+
+        /// <summary>
+        /// Control gvInventario.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvInventario;
     }
 }

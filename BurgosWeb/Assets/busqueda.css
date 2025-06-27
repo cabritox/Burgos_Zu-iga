@@ -1,0 +1,106 @@
+﻿.busqueda-productos {
+    background: rgba(36, 49, 60, 0.97);
+    border-radius: 24px;
+    box-shadow: 0 8px 40px rgba(12,30,41,0.15), 0 1.5px 6px #1ee3d51a;
+    padding: 34px 30px 26px 30px;
+    max-width: 540px;
+    min-width: 300px;
+    margin: 0 auto;
+    border: 1.5px solid #18e7d52c;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #0ecfff 30%, #1ee3d5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.1rem;
+    letter-spacing: 0.5px;
+}
+
+.input-codigo {
+    min-width: 120px;
+    max-width: 160px;
+    border-radius: 25px !important;
+    box-shadow: 0 2px 10px #1ee3d51a;
+    font-size: 1.05rem;
+    border: 2.2px solid #23313c;
+    background: #182128;
+    color: #9ffafe;
+    transition: border-color 0.23s, color 0.23s, box-shadow 0.23s, background 0.15s;
+    outline: none;
+}
+
+    .input-codigo::placeholder {
+        color: #59f6decc;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .input-codigo:hover {
+        border-color: #1ee3d5;
+        color: #1ee3d5;
+        background: #19242c;
+        box-shadow: 0 4px 16px #12c2e933;
+    }
+
+    .input-codigo:focus {
+        border-color: #2ceea8;
+        color: #0ecfff;
+        background: #1b2937;
+        outline: none;
+        box-shadow: 0 0 0 3px #2ceea844;
+    }
+
+.btn-buscar {
+    font-weight: 600;
+    font-size: 1.07rem;
+    letter-spacing: 0.1px;
+    background: linear-gradient(90deg, #19e68c 0%, #0ecfff 100%);
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 14px #19e68c33;
+    transition: transform 0.15s, box-shadow 0.15s, color 0.18s, background 0.18s;
+}
+
+    .btn-buscar:hover, .btn-buscar:focus {
+        transform: translateY(-2px) scale(1.07);
+        box-shadow: 0 6px 24px #12c2e966;
+        color: #1b2329 !important;
+        background: linear-gradient(90deg, #2ceea8 0%, #1ee3d5 100%);
+        cursor: pointer;
+    }
+
+.estado-busqueda {
+    color: #1ee3d5;
+    font-size: 1.11rem;
+    margin-bottom: 2px;
+    text-shadow: 0 1px 0 #1b2329, 0 1px 4px #12c2e9cc;
+}
+
+.modern-table {
+    border-radius: 16px !important;
+    overflow: hidden;
+    background: #212d39;
+    box-shadow: 0 2px 16px #12c2e91a;
+    margin-top: 6px;
+}
+
+    .modern-table th {
+        background: linear-gradient(90deg, #203645 60%, #142631 100%);
+        font-size: 1.07rem;
+        color: #1ee3d5;
+        border-bottom: 2.5px solid #1ee3d533 !important;
+    }
+
+    .modern-table td {
+        font-size: 1.02rem;
+        color: #eafafe;
+        vertical-align: middle;
+        background: #263340;
+        transition: background 0.12s;
+        padding: 14px 8px;
+    }
+
+    .modern-table tr:hover td {
+        background: #18303a;
+    }

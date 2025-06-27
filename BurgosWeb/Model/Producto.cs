@@ -11,23 +11,20 @@ namespace BurgosWeb.Model
         private string nombre;
         private int precio;
         private int stock;
-        private string urlImagen;
 
         public int Codigo { get => codigo; set => codigo = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public int Precio { get => precio; set => precio = value; }
         public int Stock { get => stock; set => stock = value; }
-        public string UrlImagen { get => urlImagen; set => urlImagen = value; }
 
         public Producto() { }
 
-        public Producto(int codigo, string nombre, int precio, int stock, string urlImagen)
+        public Producto(int codigo, string nombre, int precio, int stock)
         {
             this.codigo = codigo;
             this.nombre = nombre;
             this.precio = precio;
             this.stock = stock;
-            this.urlImagen = urlImagen;
         }
     }
 

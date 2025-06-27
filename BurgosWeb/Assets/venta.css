@@ -1,0 +1,128 @@
+﻿
+.formulario-ventas {
+    background: rgba(36, 49, 60, 0.96);
+    border-radius: 24px;
+    box-shadow: 0 8px 40px rgba(12,30,41,0.16), 0 1.5px 6px #1ee3d51a;
+    padding: 32px 28px 22px 28px;
+    max-width: 520px;
+    min-width: 310px;
+    margin: 0 auto 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid #18e7d52c;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #0ecfff 30%, #1ee3d5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.15rem;
+    letter-spacing: 0.5px;
+}
+
+.input-venta {
+    min-width: 110px;
+    max-width: 170px;
+    border-radius: 25px !important;
+    box-shadow: 0 2px 10px #1ee3d51a;
+    font-size: 1.08rem;
+    border: 2.2px solid #23313c;
+    transition: border-color 0.22s, color 0.22s, box-shadow 0.22s, background 0.15s;
+    background: #182128;
+    text-align: center;
+    color: #9ffafe;
+    outline: none;
+}
+
+    .input-venta::placeholder {
+        color: #59f6decc;
+        opacity: 1;
+        font-weight: 400;
+    }
+
+    .input-venta:hover {
+        border-color: #1ee3d5;
+        color: #1ee3d5;
+        background: #19242c;
+        box-shadow: 0 4px 16px #12c2e933;
+    }
+
+    .input-venta:focus {
+        border-color: #2ceea8;
+        color: #0ecfff;
+        background: #1b2937;
+        outline: none;
+        box-shadow: 0 0 0 3px #2ceea844;
+    }
+
+.btn-compra {
+    font-weight: 700;
+    font-size: 1.15rem;
+    background: linear-gradient(90deg, #19e68c 0%, #0ecfff 100%);
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 14px #19e68c33;
+    transition: transform 0.15s, box-shadow 0.15s, color 0.18s, background 0.18s;
+}
+
+    .btn-compra:hover, .btn-compra:focus {
+        transform: translateY(-2px) scale(1.07);
+        box-shadow: 0 6px 24px #12c2e966;
+        color: #1b2329 !important;
+        background: linear-gradient(90deg, #2ceea8 0%, #1ee3d5 100%);
+        cursor: pointer;
+    }
+
+.total-pagar {
+    font-size: 1.16rem;
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+    color: #1ee3d5;
+    font-weight: 500;
+}
+
+.bloque-tabla-productos {
+    max-width: 1300px;
+    width: 96vw;
+    margin: 44px auto 0 auto;
+    padding: 38px 30px 32px 30px;
+    background: rgba(36, 49, 60, 0.98);
+    border-radius: 32px;
+    box-shadow: 0 6px 38px rgba(16,202,232,0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modern-table {
+    width: 100% !important;
+    border-radius: 16px !important;
+    overflow: hidden;
+    background: #212d39;
+    box-shadow: 0 2px 16px #12c2e91a;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.08rem;
+}
+
+    .modern-table th {
+        background: linear-gradient(90deg, #203645 60%, #142631 100%);
+        font-size: 1.13rem;
+        color: #1ee3d5;
+        border-bottom: 2.5px solid #1ee3d533 !important;
+    }
+
+    .modern-table td {
+        color: #eafafe;
+        vertical-align: middle;
+        background: #263340;
+        transition: background 0.12s;
+        padding: 14px 8px;
+    }
+
+    .modern-table tr:hover td {
+        background: #18303a;
+        color: #9ffafe;
+    }

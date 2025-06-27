@@ -13,15 +13,6 @@ namespace BurgosWeb.Views
         Gestion obj = new Gestion();
         protected void Page_Load(object sender, EventArgs e)
         {
-            List<Producto> productos = obj.ListadoProductos();
-            if (productos != null && productos.Count > 0)
-            {
-                gvInventario.DataSource = productos;
-                gvInventario.DataBind();
-            }
-            else {
-                lblAlerta.Text = "Actualmente no hay productos para mostrar";
-            }
         }
     }
 }

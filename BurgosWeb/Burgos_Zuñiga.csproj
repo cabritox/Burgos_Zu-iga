@@ -71,25 +71,16 @@
     <Content Include="App_Data\Prueba_log.ldf">
       <DependentUpon>Prueba.mdf</DependentUpon>
     </Content>
+    <Content Include="Assets\busqueda.css" />
     <Content Include="Assets\master.css" />
     <Content Include="Assets\index.css" />
-    <Content Include="img\Auriculares gamer HyperX Cloud II.jpg" />
-    <Content Include="img\Cámara web Logitech C920.jpg" />
-    <Content Include="img\Disco SSD Kingston 480GB.jpg" />
-    <Content Include="img\GPU ASUS GeForce GTX 1650.jpg" />
-    <Content Include="img\Impresora HP DeskJet 2710.jpg" />
-    <Content Include="img\Memoria RAM DDR4 8GB 2666MHz.jpg" />
-    <Content Include="img\Monitor Samsung 24 FHD.jpg" />
-    <Content Include="img\Mouse inalámbrico Logitech M185.jpg" />
-    <Content Include="img\Notebook HP Ryzen 5 15.6.jpg" />
-    <Content Include="img\Parlantes Bluetooth JBL Go 3.jpg" />
-    <Content Include="img\Router TP-Link Archer C6.jpg" />
-    <Content Include="img\Smartphone Xiaomi Redmi Note 12.jpg" />
-    <Content Include="img\Smartwatch Amazfit Bip U Pro.jpg" />
-    <Content Include="img\Tablet Samsung Galaxy Tab A7.jpg" />
-    <Content Include="img\Teclado mecánico Redragon Kumara.jpg" />
+    <Content Include="Assets\venta.css" />
+    <Content Include="img\misionn.png" />
+    <Content Include="img\valor.png" />
+    <Content Include="img\visionn.png" />
     <Content Include="Views\busqueda.aspx" />
     <Content Include="Views\index.aspx" />
+    <Content Include="Views\Productos\Listado.aspx" />
     <Content Include="Views\venta.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
