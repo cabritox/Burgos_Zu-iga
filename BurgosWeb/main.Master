@@ -21,32 +21,22 @@
 <body>
     <section class="alinear">
 
-        <header>
-  <div>
-    <h1>NovaTec</h1>
-  </div>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mx-auto">
-          <a class="nav-link active" href="index.aspx">Home</a>
-          <a class="nav-link" href="venta.aspx">Venta</a>
-          <a class="nav-link" href="busqueda.aspx">Busqueda</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-</header>
+        <header class="navbar-custom">
+          <div class="container-navbar">
+            <h1 class="logo">Nova<span class="highlight">Tec</span></h1>
+            <nav class="nav-links">
+              <a href="index.aspx">Home</a>
+              <a href="Venta.aspx">Venta</a>
+              <a href="Busqueda.aspx">Búsqueda</a>
+            </nav>
+          </div>
+        </header>
+
 
 
         <main>
-            <form id="form1" runat="server">
-                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                 </asp:ContentPlaceHolder>
-            </form>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
         </main>
       
         <footer>

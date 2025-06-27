@@ -3,6 +3,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <form runat="server">
         <div class="busqueda-productos shadow-lg mx-auto my-5">
             <h2 class="mb-4 fw-bold text-gradient text-center">  Búsqueda de productos</h2>
             <form autocomplete="off">
@@ -24,6 +25,8 @@
                 </asp:GridView>
             </div>
         </div>
+    </form>
+        
 
 
 </asp:Content>
